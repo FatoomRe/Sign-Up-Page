@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.MainPage" BackgroundColor="LightBlue">
+    <StackLayout VerticalOptions="CenterAndExpand" Padding="5" BackgroundColor="LightBlue" >
+        <StackLayout Orientation="Horizontal">
+            <Entry Placeholder="First Name" FontAttributes="Bold" />
+            <Entry Placeholder="Last Name" FontAttributes="Bold"/>
+        </StackLayout>
+        <Entry Placeholder="Email" FontAttributes="Bold"/>
+        <Entry Placeholder="Password" IsPassword="True" FontAttributes="Bold"/>
+        <Entry Placeholder="Confirm Password" IsPassword="True" FontAttributes="Bold"/>
+        <Label Text="Date Of Birth" FontAttributes="Bold"/>
+        <DatePicker/>
+        <Label Text="Address" FontAttributes="Bold"/>
+        <Editor/>
+        <StackLayout Orientation="Horizontal" >
+            <Label Text="Save Password" FontAttributes="Bold"/>
+            <Switch IsToggled="False"/>
+        </StackLayout>
+        <Button Text="Sign Up" BackgroundColor="pink" FontSize="20" FontAttributes="Bold" CornerRadius="20" />
+        <Label Text="Already have account? Sign In" TextColor="Blue"/>
+    </StackLayout>
+</ContentPage>
